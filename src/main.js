@@ -39,10 +39,10 @@ scene.add(directionalLight);
 
 // Bloom effect configuration
 const bloomParams = {
-    exposure: 1,
-    bloomStrength: 1.5,
-    bloomThreshold: 0,
-    bloomRadius: 0.5
+    exposure: 0,
+    bloomStrength: 0.8,
+    bloomThreshold: 0.5,
+    bloomRadius: 1
 };
 
 // Post-processing setup
